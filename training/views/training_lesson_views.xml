@@ -78,12 +78,12 @@
                                 <field name="end_date" attrs="{'readonly': [('state', '=', 'confirm')]}"/>
                             </group>
                         </group>
-                        <notebook>
+<!--                         <notebook>
                             <page string="学生">
                                 <button name="%(action_training_student_regiester_view)d" type="action" string="学生注册"  states="confirm" />
                                 <field name="student_ids"/>
                             </page>
-                        </notebook>
+                        </notebook> -->
                     </sheet>
                 </form>
 
